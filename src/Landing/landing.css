@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+	* {
+		/* border: black 1px solid; */
+		margin: 0;
+		padding: 0;
+	}
+
+	.landing-container {
+		padding-top: 25vh;
+		margin-left: 25vw;
+		text-align: center;
+		font-family: "Bungee", cursive;
+		margin-right: 5vw;
+		height: 85vh;
+		animation: fadeInAnimation ease 3s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	@keyframes fadeInAnimation {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	.landing-portait {
+		width: 200px;
+		height: auto;
+		background-color: white;
+		filter: drop-shadow(5px 10px 15px #171616);
+		border-radius: 12%;
+	}
+
+	.header-container {
+		width: 69vw;
+	}
+	.name-header {
+		color: #eea47f;
+		font-size: 1.75em;
+		font-weight: 1;
+		width: 69vw;
+	}
+
+	.small-header {
+		color: white;
+		font-weight: 1;
+		width: 69vw;
+	}
+}

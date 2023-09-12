@@ -1,0 +1,28 @@
+@media (max-width: 480px) {
+	.projects-container {
+		padding-left: 25vw;
+		padding-right: 5vw;
+		padding-bottom: 25vh;
+		text-align: center;
+		
+	}
+
+	.projects-header {
+		font-family: "Bungee", cursive;
+		color: #eea47f;
+		font-weight: 1;
+	}
+
+	.project-card {
+		background-color: rgba(255, 255, 255, 0.542);
+		padding-bottom: 5vh;
+		width: 60vw;
+		margin-left: 2vw;
+		height: auto;
+		margin-bottom: 10vh;
+	}
+
+	.project-thumbnail {
+		width: 60vw;
+	}
+}

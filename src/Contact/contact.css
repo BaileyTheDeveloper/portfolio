@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+	.contact-logos {
+		width: 10vw;
+	}
+
+	.contact-logo-container {
+		height: 100vh;
+		width: 18vw;
+		background-color: #eea47f;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position:fixed;
+	}
+
+	.contact-logo-wrapper {
+		height: 25vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin-left: 3cqmin;
+	}
+}

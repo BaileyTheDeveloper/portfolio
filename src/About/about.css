@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+	.about-container {
+		padding-left: 25vw;
+		padding-right: 5vw;
+		padding-bottom: 25vh;
+		text-align: center;
+	}
+
+	.header {
+		font-family: "Bungee", cursive;
+		color: #eea47f;
+		font-weight: 1;
+	}
+
+	.paragraph {
+		color: white;
+	}
+}
